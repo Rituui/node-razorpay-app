@@ -15,7 +15,7 @@ html,body{
     margin: 0% auto;
 }
 header{
-    padding-top: 2.5em;
+    padding: 1.5em 0 1.5em 0;
     transition: 0.5s;
 }
 .hamburger{
@@ -91,9 +91,9 @@ p{
     background-size: cover;
 }
 .home-container{
-    width: min(50%, 700ox);
+    width: 80%;
     text-align: left;
-    padding: 10em 0 2em 0;
+    padding: 8em 0 8em 0;
 }
 .home-link1,
 .home-link2{
@@ -208,7 +208,8 @@ p{
     background-position: top center;
 }
 .donate-container{
-    padding-top: 17em;
+    border: 1px solid red;
+    padding: 17em 0 14em 0;
 }
 .donate-title{
     color: #fff;
@@ -231,7 +232,7 @@ p{
         flex-direction: row;
     }
     header{
-        height: 80px;
+        border: 1px solid red;
     }
     header, .hamburger{
         background: rgb(241, 241, 33);
@@ -261,9 +262,9 @@ p{
         z-index: 10;
         width: 46px;
         height: 36px;
-        padding-top: 0.4em;
         border-radius: 2px;
         justify-content: space-around;
+        align-items: center;
     }
     .hamburger-button{
         font-size: 2.7em;
@@ -310,5 +311,8 @@ p{
 @media screen and (max-width: 18em){
     html{
         font-size: 42%;
+    }
+    .hamburger-button{
+        font-size: 4.7em;
     }
 }

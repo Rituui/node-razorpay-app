@@ -52,5 +52,5 @@ app.post("/donate", async (req, res) => {
 });
 
 app.listen(process.env.PORT || 3000, (req, res) => {
-    console.log("server has started at");
+    console.log("server has started");
 });
