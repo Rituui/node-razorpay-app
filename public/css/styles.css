@@ -91,9 +91,8 @@ p{
     background-size: cover;
 }
 .home-container{
-    width: 80%;
     text-align: left;
-    padding: 8em 0 8em 0;
+    padding: 10em 0 3em 0;
 }
 .home-link1,
 .home-link2{
@@ -205,11 +204,10 @@ p{
     background-image: linear-gradient( rgba(2, 2, 2, 0.527) , rgba(2, 2, 2, 0.486) ), url("../images/girl.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center;
 }
 .donate-container{
-    border: 1px solid red;
-    padding: 17em 0 14em 0;
+    padding: 14em 0 3em 0;
 }
 .donate-title{
     color: #fff;
@@ -230,9 +228,6 @@ p{
     html{
         font-size: 65%;
         flex-direction: row;
-    }
-    header{
-        border: 1px solid red;
     }
     header, .hamburger{
         background: rgb(241, 241, 33);
