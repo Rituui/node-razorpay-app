@@ -229,6 +229,9 @@ p{
         font-size: 65%;
         flex-direction: row;
     }
+    header{
+        height: 80px;
+    }
     header, .hamburger{
         background: rgb(241, 241, 33);
     }
